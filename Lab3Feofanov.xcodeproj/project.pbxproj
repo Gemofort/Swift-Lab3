@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		CC1FDF112550B8B300A330EA /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FDF102550B8B300A330EA /* MovieCell.swift */; };
 		CC1FDF142550BA1300A330EA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FDF132550BA1300A330EA /* Movie.swift */; };
-		CC874C9C255298A80075AD58 /* gitignore. in Resources */ = {isa = PBXBuildFile; fileRef = CC874C9B255298A80075AD58 /* gitignore. */; };
+		CC874CA025529BF10075AD58 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CC874C9F25529BF10075AD58 /* .gitignore */; };
 		CCE01A15254F65F70023219E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE01A14254F65F70023219E /* AppDelegate.swift */; };
 		CCE01A17254F65F70023219E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE01A16254F65F70023219E /* SceneDelegate.swift */; };
 		CCE01A19254F65F70023219E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE01A18254F65F70023219E /* ViewController.swift */; };
@@ -22,8 +22,8 @@
 /* Begin PBXFileReference section */
 		CC1FDF102550B8B300A330EA /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		CC1FDF132550BA1300A330EA /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		CC874C9B255298A80075AD58 /* gitignore. */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = gitignore.; sourceTree = "<group>"; };
 		CC874C9E255299320075AD58 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CC874C9F25529BF10075AD58 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		CCE01A11254F65F70023219E /* Lab3Feofanov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab3Feofanov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE01A14254F65F70023219E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCE01A16254F65F70023219E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,8 +49,8 @@
 		CCE01A08254F65F70023219E = {
 			isa = PBXGroup;
 			children = (
+				CC874C9F25529BF10075AD58 /* .gitignore */,
 				CC874C9E255299320075AD58 /* README.md */,
-				CC874C9B255298A80075AD58 /* gitignore. */,
 				CCE01A13254F65F70023219E /* Lab3Feofanov */,
 				CCE01A12254F65F70023219E /* Products */,
 			);
@@ -145,7 +145,7 @@
 				CCE01A21254F65F80023219E /* LaunchScreen.storyboard in Resources */,
 				CCE01A1E254F65F80023219E /* Assets.xcassets in Resources */,
 				CCE01A1C254F65F70023219E /* Main.storyboard in Resources */,
-				CC874C9C255298A80075AD58 /* gitignore. in Resources */,
+				CC874CA025529BF10075AD58 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
