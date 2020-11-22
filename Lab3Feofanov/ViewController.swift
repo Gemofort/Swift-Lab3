@@ -11,10 +11,12 @@ class ViewController: UIViewController, UISearchResultsUpdating {
     
     @IBOutlet weak var tableView: UITableView!
     var movies: [Movie] = []
-    
     var filteredMovies: [Movie] = []
     
+    var newMovie: Movie?
+    
     let searchController = UISearchController(searchResultsController: nil)
+
     var isSearchBarEmpty: Bool {
       return searchController.searchBar.text?.isEmpty ?? true
     }
@@ -40,6 +42,11 @@ class ViewController: UIViewController, UISearchResultsUpdating {
         searchController.searchBar.text = ""
         
         alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+        
+//        if (newMovie != nil) {
+//            print(newMovie!)
+//            addMovie(movie: newMovie!)
+//        }
         
     }
     
@@ -89,7 +96,9 @@ class ViewController: UIViewController, UISearchResultsUpdating {
         tableView.reloadData()
     }
     
-    @IBAction func unwindToTable(_ sender: UIStoryboardSegue) {}
+    @IBAction func unwindToTable(_ sender: UIStoryboardSegue) {
+        addMovie(movie: newMovie!)
+    }
 
 
 }

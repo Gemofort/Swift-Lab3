@@ -51,7 +51,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hcb-Xr-Ufh">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hcb-Xr-Ufh">
                                                     <rect key="frame" x="190" y="83" width="184" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="zcz-HG-m0z"/>
@@ -60,7 +60,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FtV-gY-0uh">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FtV-gY-0uh">
                                                     <rect key="frame" x="190" y="133" width="184" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="UgT-iW-309"/>
@@ -70,7 +70,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6R-Ja-O6G">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6R-Ja-O6G">
                                                     <rect key="frame" x="190" y="37.5" width="184" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -265,7 +265,6 @@
                                 <rect key="frame" x="170.5" y="649" width="73" height="30"/>
                                 <state key="normal" title="Add movie"/>
                                 <connections>
-                                    <action selector="enterTapped:" destination="3O4-Ib-h8B" eventType="touchUpInside" id="4MT-Z6-vqO"/>
                                     <segue destination="kMX-Ye-ADD" kind="unwind" unwindAction="unwindToTable:" id="fGN-Q3-S6w"/>
                                 </connections>
                             </button>
@@ -296,6 +295,7 @@
                         <outlet property="newMovieName" destination="VFI-ep-VjP" id="xxI-NS-abA"/>
                         <outlet property="newMovieType" destination="y7L-3r-kO6" id="OSC-vV-1ym"/>
                         <outlet property="newMovieYear" destination="3hm-gb-0mQ" id="eb3-ZP-nmO"/>
+                        <outlet property="saveButton" destination="jFy-w2-Elg" id="Cyh-tI-tG3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="waH-wC-HpL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
