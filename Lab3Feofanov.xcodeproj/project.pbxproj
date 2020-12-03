@@ -10,6 +10,9 @@
 		CC1FDF112550B8B300A330EA /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FDF102550B8B300A330EA /* MovieCell.swift */; };
 		CC1FDF142550BA1300A330EA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FDF132550BA1300A330EA /* Movie.swift */; };
 		CC874CA025529BF10075AD58 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CC874C9F25529BF10075AD58 /* .gitignore */; };
+		CCA9865625793DC800246935 /* PhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9865525793DC800246935 /* PhotoCollectionCell.swift */; };
+		CCB35D4B2577F035005260DD /* CollectionCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB35D4A2577F035005260DD /* CollectionCellViewController.swift */; };
+		CCB35D4E2577F07B005260DD /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB35D4D2577F07B005260DD /* CollectionViewCell.swift */; };
 		CCCDB2162569E37F000CE067 /* MovieInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDB2152569E37F000CE067 /* MovieInfoViewController.swift */; };
 		CCCDB2192569E3E9000CE067 /* AddMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDB2182569E3E9000CE067 /* AddMovieViewController.swift */; };
 		CCE01A15254F65F70023219E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE01A14254F65F70023219E /* AppDelegate.swift */; };
@@ -26,6 +29,9 @@
 		CC1FDF132550BA1300A330EA /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		CC874C9E255299320075AD58 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CC874C9F25529BF10075AD58 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CCA9865525793DC800246935 /* PhotoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionCell.swift; sourceTree = "<group>"; };
+		CCB35D4A2577F035005260DD /* CollectionCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellViewController.swift; sourceTree = "<group>"; };
+		CCB35D4D2577F07B005260DD /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		CCCDB2152569E37F000CE067 /* MovieInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoViewController.swift; sourceTree = "<group>"; };
 		CCCDB2182569E3E9000CE067 /* AddMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieViewController.swift; sourceTree = "<group>"; };
 		CCE01A11254F65F70023219E /* Lab3Feofanov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab3Feofanov.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +89,9 @@
 				CC1FDF132550BA1300A330EA /* Movie.swift */,
 				CCCDB2152569E37F000CE067 /* MovieInfoViewController.swift */,
 				CCCDB2182569E3E9000CE067 /* AddMovieViewController.swift */,
+				CCB35D4A2577F035005260DD /* CollectionCellViewController.swift */,
+				CCB35D4D2577F07B005260DD /* CollectionViewCell.swift */,
+				CCA9865525793DC800246935 /* PhotoCollectionCell.swift */,
 			);
 			path = Lab3Feofanov;
 			sourceTree = "<group>";
@@ -162,11 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB35D4E2577F07B005260DD /* CollectionViewCell.swift in Sources */,
 				CCE01A19254F65F70023219E /* ViewController.swift in Sources */,
 				CCE01A15254F65F70023219E /* AppDelegate.swift in Sources */,
 				CC1FDF112550B8B300A330EA /* MovieCell.swift in Sources */,
+				CCA9865625793DC800246935 /* PhotoCollectionCell.swift in Sources */,
 				CCCDB2192569E3E9000CE067 /* AddMovieViewController.swift in Sources */,
 				CCE01A17254F65F70023219E /* SceneDelegate.swift in Sources */,
+				CCB35D4B2577F035005260DD /* CollectionCellViewController.swift in Sources */,
 				CC1FDF142550BA1300A330EA /* Movie.swift in Sources */,
 				CCCDB2162569E37F000CE067 /* MovieInfoViewController.swift in Sources */,
 			);
