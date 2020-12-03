@@ -1,9 +1,7 @@
-# Lab3 (Lab4)
+# Lab3 (Lab4/Lab5)
 
 
 ### Main problems:
- - Autolayout is still a pain, but much less painfull as it was before.
- - Tried to do some screens as scroll view to display them on any other orientation, but failed.
- - It would be cool if you gave a quick brief course through scroll views and how to handle horizontal orientation.
- - The same with delegates, callbacks, segues, used unwind segue to pass data from AddMovieVC to main VC instead of calling callback and etc.
- - By "brief course" I mean "tips and tricks".
+ - I used compositional layout which opened a new way of seeing thing in swift.
+ - Structure is similar to table view so it was easy placing items in that
+ - The portrait mode is kinda ok, but others are scuffed
