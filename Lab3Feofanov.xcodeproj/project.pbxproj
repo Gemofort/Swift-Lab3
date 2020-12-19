@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		CC1FDF112550B8B300A330EA /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FDF102550B8B300A330EA /* MovieCell.swift */; };
 		CC1FDF142550BA1300A330EA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FDF132550BA1300A330EA /* Movie.swift */; };
+		CC391746258D6639008DCC55 /* SegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC391745258D6639008DCC55 /* SegmentedViewController.swift */; };
+		CC391751258D6BDC008DCC55 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC391750258D6BDC008DCC55 /* ChartView.swift */; };
+		CC391754258E369E008DCC55 /* DiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC391753258E369E008DCC55 /* DiagramView.swift */; };
 		CC874CA025529BF10075AD58 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CC874C9F25529BF10075AD58 /* .gitignore */; };
 		CCA9865625793DC800246935 /* PhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9865525793DC800246935 /* PhotoCollectionCell.swift */; };
 		CCB35D4B2577F035005260DD /* CollectionCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB35D4A2577F035005260DD /* CollectionCellViewController.swift */; };
@@ -27,6 +30,9 @@
 /* Begin PBXFileReference section */
 		CC1FDF102550B8B300A330EA /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		CC1FDF132550BA1300A330EA /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CC391745258D6639008DCC55 /* SegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedViewController.swift; sourceTree = "<group>"; };
+		CC391750258D6BDC008DCC55 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		CC391753258E369E008DCC55 /* DiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramView.swift; sourceTree = "<group>"; };
 		CC874C9E255299320075AD58 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CC874C9F25529BF10075AD58 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		CCA9865525793DC800246935 /* PhotoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionCell.swift; sourceTree = "<group>"; };
@@ -92,6 +98,9 @@
 				CCB35D4A2577F035005260DD /* CollectionCellViewController.swift */,
 				CCB35D4D2577F07B005260DD /* CollectionViewCell.swift */,
 				CCA9865525793DC800246935 /* PhotoCollectionCell.swift */,
+				CC391745258D6639008DCC55 /* SegmentedViewController.swift */,
+				CC391750258D6BDC008DCC55 /* ChartView.swift */,
+				CC391753258E369E008DCC55 /* DiagramView.swift */,
 			);
 			path = Lab3Feofanov;
 			sourceTree = "<group>";
@@ -181,6 +190,9 @@
 				CCB35D4B2577F035005260DD /* CollectionCellViewController.swift in Sources */,
 				CC1FDF142550BA1300A330EA /* Movie.swift in Sources */,
 				CCCDB2162569E37F000CE067 /* MovieInfoViewController.swift in Sources */,
+				CC391746258D6639008DCC55 /* SegmentedViewController.swift in Sources */,
+				CC391751258D6BDC008DCC55 /* ChartView.swift in Sources */,
+				CC391754258E369E008DCC55 /* DiagramView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
